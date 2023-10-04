@@ -7,6 +7,7 @@
 | who           | 3                 |    
 | ls -al        | 4                 |
 | cat en-us.txt | 5                 |   
+| erichebert@Erics-MacBook-Pro ~ % cat Documents/GitHub/lecture1/messages/zh-cn.txt | 6 |
 
 1. 
 ```
@@ -39,5 +40,16 @@
 ```
 {
     erichebert       console      Sep 13 12:35 
+}
+```
+6. 
+```
+{
+    cat Documents/GitHub/lecture1/messages/zh-cn.txt
+}
+```
+```
+{
+    你好世界
 }
 ```

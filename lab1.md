@@ -34,7 +34,7 @@
     Hello.java      README          messages
 }
 ```
-3.
+3. 
 ```
 {
     erichebert@Erics-MacBook-Pro messages % who
@@ -45,8 +45,8 @@
     erichebert       console      Sep 13 12:35 
 }
 ```
-4.
-5.
+4. 
+5. 
 6. 
 ```
 {
@@ -58,6 +58,6 @@
     你好世界
 }
 ```
-7.
-8.
-9.
+7. 
+8. 
+9. 

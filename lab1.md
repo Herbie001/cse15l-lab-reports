@@ -19,7 +19,6 @@
     /Users/erichebert/Documents/GitHub/lecture1
 }
 ```
-
 2. 
 ```
 {
@@ -31,7 +30,6 @@
     Hello.java      README          messages
 }
 ```
-
 3.
 ```
 {

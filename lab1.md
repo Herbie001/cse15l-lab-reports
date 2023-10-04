@@ -1,22 +1,43 @@
 ## This is the first lab report for CSE15L of FA23
 
-| Command Used | #Associated block | Alphabetical block     | 
-| :---         |    :----:         |           ---:         |
-| pwd          | 1                 |    A                   |
-| cd           | 2                 |    And more            |
-| ls           | 3                 |       
+| Command Used  | #Associated block | 
+| :---          |    ----:          |
+| pwd           | 1                 | 
+| ls            | 2                 | 
+| who           | 3                 |    
+| ls -al        | 4                 |
+| cat en-us.txt | 5                 |   
 
-1. The following is code block 1 using the command cd
+1. 
 ```
 {
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
+  erichebert@Erics-MacBook-Pro lecture1 % pwd
 }
 ```
-A. The following is the output for block 1 code
 ```
 {
     /Users/erichebert/Documents/GitHub/lecture1
+}
+```
+2. 
+```
+{
+    erichebert@Erics-MacBook-Pro lecture1 % ls
+}
+```
+```
+{
+    Hello.java      README          messages
+}
+```
+3.
+```
+{
+    erichebert@Erics-MacBook-Pro messages % who
+}
+```
+```
+{
+    erichebert       console      Sep 13 12:35 
 }
 ```

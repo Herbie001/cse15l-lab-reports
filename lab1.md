@@ -9,8 +9,8 @@
 | cat en-us.txt     | 5                 |   
 | cat Absolute Path | 6                 |
 | cat Relative Path | 7                 |
-|       |    8 |
-|       |    9 |
+|                   |    8              |
+|                   |    9              |
 1. 
 ```
 {

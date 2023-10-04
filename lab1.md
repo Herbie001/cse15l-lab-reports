@@ -1,14 +1,16 @@
 ## This is the first lab report for CSE15L of FA23
 
-| Command Used  | #Associated block | 
-| :---          |    ----:          |
-| pwd           | 1                 | 
-| ls            | 2                 | 
-| who           | 3                 |    
-| ls -al        | 4                 |
-| cat en-us.txt | 5                 |   
-| erichebert@Erics-MacBook-Pro ~ % cat Documents/GitHub/lecture1/messages/zh-cn.txt | 6 |
-
+| Command Used      | #Associated block | 
+| :---              |    ----:          |
+| pwd               | 1                 | 
+| ls                | 2                 | 
+| who               | 3                 |    
+| ls -al            | 4                 |
+| cat en-us.txt     | 5                 |   
+| cat Absolute Path | 6                 |
+| cat Relative Path | 7                 |
+|       |    8 |
+|       |    9 |
 1. 
 ```
 {
@@ -42,6 +44,8 @@
     erichebert       console      Sep 13 12:35 
 }
 ```
+4.
+5.
 6. 
 ```
 {
@@ -53,3 +57,6 @@
     你好世界
 }
 ```
+7.
+8.
+9.

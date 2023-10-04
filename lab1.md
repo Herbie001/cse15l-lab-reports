@@ -1,7 +1,7 @@
 ## This is the first lab report for CSE15L of FA23
 
 | Command Used      | #Associated block | 
-| :---              |    ----:          |
+| :---------------  | ----------------: |
 | pwd               | 1                 | 
 | ls                | 2                 | 
 | who               | 3                 |    
@@ -11,6 +11,7 @@
 | cat Relative Path | 7                 |
 |  a                | 8                 |
 |  b                | 9                 |
+
 1. 
 ```
 {

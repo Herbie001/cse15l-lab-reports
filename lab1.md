@@ -58,17 +58,86 @@
 }
 ```
 5. 
+```
+{
+    erichebert@Erics-MacBook-Pro lecture1 % 
+    java Hello messages/es-mx.txt 
+}
+```
+```
+{
+    ¡Hola Mundo!
+}
+```
+
 6. 
 ```
 {
-    cat Documents/GitHub/lecture1/messages/zh-cn.txt
+    erichebert@Erics-MacBook-Pro lecture1 % 
+    java Hello messages/en-us.txt 
 }
 ```
 ```
 {
-    你好世界
+    Hello World!
 }
 ```
+
+
 7. 
+```
+{
+    erichebert@Erics-MacBook-Pro lecture1 % 
+    cat README 
+}
+```
+```
+{
+    To use this program:
+
+    javac Hello.java
+    java Hello messages/en-us.txt
+}
+```
+
 8. 
+```
+{
+    erichebert@Erics-MacBook-Pro messages % 
+    cat es-mx.txt 
+}
+```
+```
+{
+    ¡Hola Mundo!
+}
+```
+
 9. 
+```
+{
+    erichebert@Erics-MacBook-Pro messages % 
+    cat en-us.txt 
+}
+```
+```
+{
+    Hello World!
+}
+```
+
+
+
+```
+{
+
+}
+```
+```
+{
+
+}
+```
+
+
+

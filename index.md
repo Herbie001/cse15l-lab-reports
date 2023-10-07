@@ -6,4 +6,5 @@
 3. [Extended Syntax](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)
 
 # Here are some important files for unix commands that will be utilizes in this course
-1. 
+1. [Linux Commands Cheat Sheet](https://www.guru99.com/linux-commands-cheat-sheet.html)
+2.[Another Linux Command Cheat Sheet](https://www.guru99.com/linux-commands-cheat-sheet.html)

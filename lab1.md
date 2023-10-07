@@ -5,7 +5,7 @@
 | pwd               | 1                 | 
 | ls                | 2                 | 
 | who               | 3                 |    
-| ls -al            | 4                 |
+| java Hello messages/zh-cn.txt| 4                 |
 | cat en-us.txt     | 5                 |   
 | cat Absolute Path | 6                 |
 | cat Relative Path | 7                 |
@@ -46,6 +46,17 @@
 }
 ```
 4. 
+```
+{
+    erichebert@Erics-MacBook-Pro lecture1 % 
+    java Hello messages/zh-cn.txt 
+}
+```
+```
+{
+    你好世界
+}
+```
 5. 
 6. 
 ```

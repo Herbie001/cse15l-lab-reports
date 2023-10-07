@@ -5,12 +5,12 @@
 | pwd               | 1                 | 
 | ls                | 2                 | 
 | who               | 3                 |    
-| java Hello messages/zh-cn.txt| 4                 |
-| cat en-us.txt     | 5                 |   
-| cat Absolute Path | 6                 |
-| cat Relative Path | 7                 |
-|  to a directory   | 8                 |
-|  to a directory   | 9                 |
+| java Hello messages/zh-cn.txt| 4      |
+| java Hello messages/es-mx.txt| 5      |   
+| java Hello messages/en-us.txt| 6      |
+|  cat README       | 7                 |
+|  cat es-mx.txt    | 8                 |
+|  cat en-us.txt    | 9                 |
 
 1. 
 ```
@@ -125,19 +125,3 @@
     Hello World!
 }
 ```
-
-
-
-```
-{
-
-}
-```
-```
-{
-
-}
-```
-
-
-

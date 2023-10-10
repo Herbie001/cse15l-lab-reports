@@ -60,13 +60,16 @@
 5. 
 ```
 {
-    erichebert@Erics-MacBook-Pro lecture1 % 
-    java Hello messages/es-mx.txt 
+    erichebert@Erics-MacBook-Pro ~ % 
+    cd Documents/GitHub/lecture1 && cat README
 }
 ```
 ```
 {
-    ¡Hola Mundo!
+    To use this program:
+
+    javac Hello.java
+    java Hello messages/en-us.txt
 }
 ```
 
@@ -87,41 +90,38 @@
 7. 
 ```
 {
-    erichebert@Erics-MacBook-Pro lecture1 % 
-    cat README 
+    erichebert@Erics-MacBook-Pro ~ % 
+    ls Documents/GitHub/lecture1 
 }
 ```
 ```
 {
-    To use this program:
-
-    javac Hello.java
-    java Hello messages/en-us.txt
+    Hello.class     Hello.java      README          messages
 }
 ```
 
 8. 
 ```
 {
-    erichebert@Erics-MacBook-Pro messages % 
-    cat es-mx.txt 
+    erichebert@Erics-MacBook-Pro /Users % 
+    ls erichebert/Documents/GitHub/lecture1/messages
 }
 ```
 ```
 {
-    ¡Hola Mundo!
+    en-us.txt       es-mx.txt       jp.txt          zh-cn.txt
 }
 ```
 
 9. 
 ```
 {
-    erichebert@Erics-MacBook-Pro messages % 
-    cat en-us.txt 
+    erichebert@Erics-MacBook-Pro / % 
+    ls Users/erichebert/Documents/GitHub 
 }
 ```
 ```
 {
-    Hello World!
+    cse15l-lab-reports      lecture1
 }
 ```

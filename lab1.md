@@ -2,15 +2,15 @@
 
 | Command Used      | #Associated block | 
 | :---------------  | ----------------: |
-| pwd               | 1                 | 
-| ls                | 2                 | 
-| who               | 3                 |    
-| java Hello messages/zh-cn.txt| 4      |
-| java Hello messages/es-mx.txt| 5      |   
-| java Hello messages/en-us.txt| 6      |
-|  cat README       | 7                 |
-|  cat es-mx.txt    | 8                 |
-|  cat en-us.txt    | 9                 |
+| pwd                                              | 1  | 
+| ls                                               | 2  | 
+| who                                              | 3  |    
+| java Hello messages/zh-cn.txt                    | 4  |
+| cd Documents/GitHub/lecture1 && cat README       | 5  |   
+| java Hello messages/en-us.txt                    | 6  |
+| ls Documents/GitHub/lecture1                     | 7  |
+| ls erichebert/Documents/GitHub/lecture1/messages | 8  |
+| ls Users/erichebert/Documents/GitHub             | 9  |
 
 1. 
 ```

@@ -54,13 +54,16 @@ class StringServer {
 
 The outputs from running this program are in the picture below. As you can see,
 the paths for the private and public keys are located in the folder created.
+
 ![SSH Generation](<images/PA2 Images/ssh key generation.png>)
 
 Next, here is a picture of me changing directories to /.ssh and showing the existence of
 the private key and public keys used to log onto the ieng6 server at UCSD.
+
 ![ls SSH Key path](<images/PA2 Images/ls-.ssh-folder.png>)
 
 Finally, here is a picture of me logging into the ieng6 server without inputting my password.
+
 ![Logging into ieng server](<images/PA2 Images/Screenshot 2023-10-22 at 3.04.21 PM.png>)
 
 # Part 3: Reflection

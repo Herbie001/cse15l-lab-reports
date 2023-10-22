@@ -13,7 +13,7 @@
 | ls erichebert/Documents/GitHub/lecture1/messages | 8  |
 | ls Users/erichebert/Documents/GitHub             | 9  |
 
-## The following screenshots are for commands that dont require arguments.
+## Sharing examples of screenshots using a command without arguments
 
 For this example, the current working directory for this example is Users/erichebert.
 The reason I got the following output is because the command pwd prints the name of 
@@ -42,7 +42,7 @@ The following output isn't an error since we're just gathering information about
 
 ![who command](<images/PA1 Images/Screenshot 2023-10-21 at 11.08.39 PM.png>)
 
-## The next screenshots require a command with a path to a file as an argument.
+## Sharing example of screenshots using commands with argument with a path to a file
 
 
 For this example, my current working directory was /Users/erichebert/Documents/GitHub/lecture1.
@@ -72,7 +72,7 @@ directory and tried to execute the cat command, I would've recieved an error mes
 
 ![cat README](<images/PA1 Images/Screenshot 2023-10-21 at 11.18.22 PM.png>)
 
-## The next screenshots require a command with a directory as an argument.
+## Sharing example of screenshots using commands with argument with a path to a directory.
 
 
 For this example, my current working directory was /Users/erichebert.

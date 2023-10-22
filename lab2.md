@@ -52,4 +52,4 @@ class StringServer {
 
 #Part 2: Generating SSH Key
 The outputs from running this program are in the picture below.
-![Generating SSH Key](/images/PA2%20Images/ssh%20key%20generation.png)[github.com/Herbie001/cse15l-lab-reports/blob/main/images/]
+![Generating SSH Key](/images/PA2%20Images/ssh%20key%20generation.png)

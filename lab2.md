@@ -1,6 +1,6 @@
-## This is the second lab report for CS15L of FA23
+# This is the second lab report for CS15L of FA23
 
-# Part 1
+## Part 1
 In the following code block is my StringServer.java file.
 ```
 {
@@ -50,7 +50,7 @@ class StringServer {
 }
 ```
 
-# Part 2: Generating SSH Key
+## Part 2: Generating SSH Key
 
 The outputs from running this program are in the picture below. As you can see,
 the paths for the private and public keys are located in the folder created.
@@ -66,7 +66,7 @@ Finally, here is a picture of me logging into the ieng6 server without inputting
 
 ![Logging into ieng server](<images/PA2 Images/Screenshot 2023-10-22 at 3.04.21 PM.png>)
 
-# Part 3: Reflection
+## Part 3: Reflection
 During week three, I learned about SSH keys and generating them on my PC. Additionally, I learned the difference of
 private keys, public keys and their significance. I also learned a lot during weeks two and three regarding 
 server implementation and running programs using paths and queries. I actually found this really fun because it's

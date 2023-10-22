@@ -1,6 +1,6 @@
-##This is the second lab report for CS15L of FA23
+## This is the second lab report for CS15L of FA23
 
-#Part 1
+# Part 1
 In the following code block is my StringServer.java file.
 ```
 {
@@ -50,9 +50,6 @@ class StringServer {
 }
 ```
 
-#Part 2: Generating SSH Key
+# Part 2: Generating SSH Key
 The outputs from running this program are in the picture below.
-)
-[SSH Generation](/images/PA2%20Images/ssh%20key%20generation.png)
-![SSH Generation](/images/PA2%20Images/ssh%20key%20generation.png "SSH Key Generation")
 ![SSH Generation](<images/PA2 Images/ssh key generation.png>)

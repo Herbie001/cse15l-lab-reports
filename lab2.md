@@ -46,11 +46,29 @@ class StringServer {
 }
 ```
 ## Pictures from output using codeblock above:
+For both pictures below, after we've initiated the webserver, we can go to the 
+url and use the following template to add messages "/add-message?s=<String>".
+After this is executed, in both screenshots class Handler implements URLHandler 
+containing the method public String handleRequest(URI url) will process the argument from the template above. 
+1. First, the getPath() method gets the URL and will first check to see if the path equals the required path necessary to pass through the condition.
+2. Next, it will get the query using getQuery() method, starting after the first "?" and then splits it using the 
+equals sign as the delimeter. When we split, we want to store them in an array of type String which will contain both the s and the message desired by the user which came from the query.
+3. Next, we will make sure the query is equal to s, if the condition is satisfied, then we add that string to an ArrayList of type string.
+4. Finally, at the end of our method, we will concatenate all the values from
+the ArrayList in a list type method tracking numerically when the messages were 
+entered by the user. 
+5. Final thoughts: If the path entered by the user isn't exactly what the program requires to run, then we will simply output nothing because the conditional statement for say /addmessage?s=How are you wouldn't pass. Even if the path portion passes, you can still input the wrong character for the query or even not input a question mark required for the getQuery() method. After your program is compiled and bug free, you're able to start your webserver and nothing else changes inside the program other than the ArrayList you use to concatenate the empty String to return after the program is properly executed.
+
 
 This is screenshot one from using the following request: /add-message?s=Hello
+The getQuery().split("=") will take the query "s=Hello" and stick them into
+an array of type String which will store "s", and "Hello". Check the condition to see if the first parameter of the array is equal to "s", if the condition
+is satisfied, then store the string in the contained in Parameters[1].
 ![StringServer output 1](<images/PA2 Images/StringServer-output-1.png>)
 
 This next screenshot demonstrates storing and keeping track of previous messages
+The getQuery().split("=") will take the query "s=Hello. Parameters[] = {s, Cya later}. Now, to check that Parameters[0] is equal to "s", if satisfied, store the string of Parameters[1]. As you can see, we have three other messages 
+displayed, and we know the order in which they were entered as well.
 ![StringServer output 2](<images/PA2 Images/StringServer-output-2.png>)
 
 ## Part 2: Generating SSH Key

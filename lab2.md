@@ -45,6 +45,13 @@ class StringServer {
     }
 }
 ```
+## Pictures from output using codeblock above:
+
+This is screenshot one from using the following request: /add-message?s=Hello
+![StringServer output 1](<images/PA2 Images/StringServer-output-1.png>)
+
+This next screenshot demonstrates storing and keeping track of previous messages
+![StringServer output 2](<images/PA2 Images/StringServer-output-2.png>)
 
 ## Part 2: Generating SSH Key
 
@@ -53,10 +60,11 @@ the paths for the private and public keys are located in the folder created.
 
 ![SSH Generation](<images/PA2 Images/ssh key generation.png>)
 
-Next, here is a picture of me changing directories to /.ssh and showing the existence of
-the private key and public keys used to log onto the ieng6 server at UCSD.
+Next, here is a screenshot of the ls command with the complete path to the 
+location of the the private key and public keys used to authorize me loggoing
+ onto the ieng6 server at UCSD.
 
-![ls SSH Key path](<images/PA2 Images/ls-.ssh-folder.png>)
+![ls SSH direct path](<images/PA2 Images/ls-SSH-Screenshot.png>)
 
 Finally, here is a picture of me logging into the ieng6 server without inputting my password.
 

@@ -110,13 +110,13 @@ fully test the capability to see if the method even merges properly.
 
 # Part two - Researching Commands
 
-For this portion of the lab, I'll choose to look at the grep command. 
+For this portion of the lab, I'll choose to look at the grep command.
 
-## fgrep examples
+## #1 fgrep examples
 The importance of fgrep is that it searches files for the literal argument input by the user. 
 In addition, fgrep is very fast at finding the results.
 
-1. The following code block is searching for the string "murder" in the all the textfiles contained within the subdirectories of technical/ and stores them inside another textfile. 
+The following code block is searching for the string "murder" in the all the textfiles contained within the subdirectories of technical/ and stores them inside another textfile. 
 This is incredily useful because we're able to store the files and lines that contain the
 desired string we're searching for. fgrep searching for literal or exact values.
 ![Alt text](<images/PA3 Images/fgrep-example1.png>)
@@ -124,7 +124,7 @@ desired string we're searching for. fgrep searching for literal or exact values.
 Here is the output:
 ![Alt text](<images/PA3 Images/fgrep-example1-output.png>)
 
-2. The following code block is searching for the string "homicide" in the all the textfiles contained within the subdirectories of technical/. As stated above, this is incredibly useful
+The following code block is searching for the string "homicide" in the all the textfiles contained within the subdirectories of technical/. As stated above, this is incredibly useful
 and helps sorting and storing loads of information within textfiles that satisfies the argument
 input by the user.
 ![Alt text](<images/PA3 Images/fgrep-example2.png>)
@@ -132,11 +132,11 @@ input by the user.
 Here is the output:
 ![Alt text](<images/PA3 Images/fgrep-example2-output.png>)
 
-## egrep examples
+## #2 egrep examples
 The importance of egrep and the main difference between other grep's in the command line
 arsinal is that it searches for patterns rather than literals.
 
-3. The following code block is searching for a pattern desired by the user, in this case im
+The following code block is searching for a pattern desired by the user, in this case im
 searching for homicide or murder and inserting them into a new textfile to properly store the 
 data. 
 ![Alt text](<images/PA3 Images/egrep-example1.png>)
@@ -144,7 +144,7 @@ data.
 Here is the output:
 ![Alt text](<images/PA3 Images/egrep-example1-output.png>)
 
-4. The following code block is searching the pattern "anime or cartoons" and storing them into 
+The following code block is searching the pattern "anime or cartoons" and storing them into 
 a textfile. For this argument I provided, I didn't really expect anything to pop up, so I was
 sort of surprised. 
 ![Alt text](<images/PA3 Images/egrep-example2.png>)
@@ -152,10 +152,10 @@ sort of surprised.
 Here is the output:
 ![Alt text](<images/PA3 Images/egrep-example2-output.png>)
 
-## rgrep examples (grep -r) to be more precise.
+## #3 rgrep examples (grep -r) to be more precise.
 The importance of grep -r is that it recursively searches for the pattern desired by the user.
 
-5. The following code block recursively searches for the pattern desired by the user. In this case,
+The following code block recursively searches for the pattern desired by the user. In this case,
 I also added on wc -l which will count the number of lines in the output. I thought this result 
 wasn't all too useful since you only have a number which doesn't really give you much information.
 It's useful, but I believe there's a better approach.
@@ -164,7 +164,7 @@ It's useful, but I believe there's a better approach.
 Here is the output:
 ![Alt text](<images/PA3 Images/rgrep-example1-output.png>)
 
-6. This is the last code block of me recursively searching again for the pattern "murder" and
+This is the last code block of me recursively searching again for the pattern "murder" and
 I decided to use the head -5 command which will print the first 5 lines of each textfile 
 containing the pattern input. So, as we can see, the output includes only five lines from
 911report/chapter-2.txt file.
@@ -173,19 +173,19 @@ containing the pattern input. So, as we can see, the output includes only five l
 Here is the output:
 ![Alt text](<images/PA3 Images/rgrep-example2-output.png>)
 
-## grep -c examples
+## #4 grep -c examples
 The importance of grep -c is that it counts how many times the argument was used within the 
 set of textfiles input by the user, this is critical in determining the frequencies of words 
 throughout all the textfiles contained in the subdirectories of technical/.
 
-7. In this code block, I'm searching for the number of times the term gun is used throughout
+In this code block, I'm searching for the number of times the term gun is used throughout
 all the textfiles located in the subdirectories of technical/.
 ![Alt text](<images/PA3 Images/cgrep-example1.png>)
 
 Here is the output:
 ![Alt text](<images/PA3 Images/cgrep-example1-output.png>)
 
-8. In this last code block I tried something entirely new, I basically did the same procedure as
+In this last code block I tried something entirely new, I basically did the same procedure as
 I did in the previous code block. I counted the number of times the term murder came up, but I also
 added the command grep -rl using the same argument. The r portion works analogously to grep -r, and
 the l part lists all the names of the files that contain the argument.

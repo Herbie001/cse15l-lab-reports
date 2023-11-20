@@ -77,7 +77,6 @@ Pictures:
 
 ![Alt text](<images/PA4 Images/edit java file using vim.png>)
 
-<br>
 
 ## Re-run the tests.
 
@@ -85,7 +84,6 @@ Pictures:
 
 Summary of task: You want to click in your console, the re-run the same bash command using the same command. Which should give you 4 successful tests.
 
-<br>
 
 
 ```

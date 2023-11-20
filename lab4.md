@@ -5,7 +5,7 @@
 
 Summary of task: Assuming vscode is already open: press control+shift+`(back tick) to open a new terminal. Now log onto ieng6 server. with ssh cse15lfa23zz@ieng6.ucsd.edu. Remember that the zz is replaced by your own specific bigram. There is no other steps to take since we've already established the SSH key generation from week 3.
 
-Keystrokes: control+shift+`(backtick), ssh<space>cse15lfa23zz@ieng6.ucsd.edu<enter>
+Keystrokes: control+shift+`(backtick), ssh cse15lfa23zz@ieng6.ucsd.edu<enter>
 
 Pictures:
 
@@ -35,7 +35,7 @@ Summary of task: Open the directory you just cloned onto your machine, open term
 $ bash test.sh 
 ```
 
-This command will run a script which will test your program to determine if there's any errors. After running the script, you will notice that you have run 4 tests, 3 passed and 1 failed.
+This command will run a script which will test your program to determine if there's any errors. After running the script, you will notice that you have run 2 tests, 1 passed and 1 failed.
 
 Keystrokes: bash <space> test.sh <enter>
 

@@ -119,6 +119,7 @@ Here is the code after addressing the bug causing the infinite loop.
 
 For this portion of the lab, I'll choose to look at the grep command.
 
+
 ## #1 grep -f examples
 The importance of grep -f is that it will search for patterns in the directory specified by the user. In this example I used a text file called "pattern.txt" which contained the key word "murder". 
 
@@ -131,15 +132,24 @@ $ grep -f pattern.txt technical/*/*.txt > sample-text.txt
 ```
 output:
 ```
-technical/911report/chapter-2.txt:                declared war against God and his messenger, they called for the murder of any
-technical/911report/chapter-2.txt:                even unprovoked mass murder as righteous defense of an embattled faith. Many
-technical/911report/chapter-2.txt:                as unbelievers," because of their readiness to demonize and murder those with whom
-technical/911report/chapter-2.txt:                like most other human beings, are repelled by mass murder and barbarism whatever
-technical/911report/chapter-2.txt:                Jersey City, he distributed messages calling for the murder of unbelievers.
-technical/911report/chapter-3.txt:                tracking down Mir Amal Kansi, the Pakistani gunman who had murdered two CIA
-technical/911report/chapter-7.txt:                suspect criminal behavior, let alone a terrorist plot to commit mass murder.
-technical/plos/journal.pbio.0020101.txt:        hard getting used to multiple murders per day in any large city. No, I mean sitcoms,
-technical/plos/pmed.0020060.txt:        x-ray of the mummy suggests a murder plot: King Tut may have been done in by a blow to the
+technical/911report/chapter-2.txt:                
+declared war against God and his messenger, they called for the murder of any
+technical/911report/chapter-2.txt:                
+even unprovoked mass murder as righteous defense of an embattled faith. Many
+technical/911report/chapter-2.txt:                
+as unbelievers," because of their readiness to demonize and murder those with whom
+technical/911report/chapter-2.txt:                
+like most other human beings, are repelled by mass murder and barbarism whatever
+technical/911report/chapter-2.txt:                
+Jersey City, he distributed messages calling for the murder of unbelievers.
+technical/911report/chapter-3.txt:                
+tracking down Mir Amal Kansi, the Pakistani gunman who had murdered two CIA
+technical/911report/chapter-7.txt:                
+suspect criminal behavior, let alone a terrorist plot to commit mass murder.
+technical/plos/journal.pbio.0020101.txt:        
+hard getting used to multiple murders per day in any large city. No, I mean sitcoms,
+technical/plos/pmed.0020060.txt:        
+x-ray of the mummy suggests a murder plot: King Tut may have been done in by a blow to the
 ```
 
 The following code block is searching for the string "homicide" in the all the textfiles contained within the subdirectories of technical/. As stated above, this is incredibly useful and helps sorting and storing loads of information within textfiles that satisfies the argument input by the user.
@@ -190,53 +200,158 @@ defects (Fig. 9). In cells grown at lower temperatures, the
 ALMR/BDUR and ALML/BDUL, respectively. When these cells
 ```
 
-The following code block is searching the pattern "anime or cartoons" and storing them into 
-a textfile. For this argument I provided, I didn't really expect anything to pop up, so I was
-sort of surprised. 
-![Alt text](<images/PA3 Images/egrep-example2.png>)
+
+In the following, I'm searching for the patterns "anime" and "cartoon".
+
+```
+$ grep -e "anime" -e "cartoons" */*.txt > sample-text.txt
+```
 
 Here is the output:
-![Alt text](<images/PA3 Images/egrep-example2-output.png>)
+
+```
+biomed/cc4.txt:          
+artery pressure was measured by planimetry as the mean of
+biomed/gb-2001-2-4-research0012.txt:          
+cartoons) or by appearance (for example, double-weight
+biomed/gb-2001-2-4-research0012.txt:          
+cartoons and fully quantitative mathematical models.
+plos/journal.pbio.0030136.txt:        
+The iconic is by now commonplace—the idea that cartoons capture the 
+essence of an image
+```
+
 
 ## #3 grep -r examples
-The importance of grep -r is that it recursively searches for the pattern desired by the user.
 
-The following code block recursively searches for the pattern desired by the user. In this case,
-I also added on wc -l which will count the number of lines in the output. I thought this result 
-wasn't all too useful since you only have a number which doesn't really give you much information.
-It's useful, but I believe there's a better approach.
-![Alt text](<images/PA3 Images/rgrep-example1.png>)
+The importance of grep -r is that it recursively searches for the pattern desired by the user. In the cases below, I'm simply searching for a particular keyword which is recursively searched for. This is useful because it searches through a wide range of directories and subdirectories.
 
-Here is the output:
-![Alt text](<images/PA3 Images/rgrep-example1-output.png>)
+Here is the first input: 
 
-This is the last code block of me recursively searching again for the pattern "murder" and
-I decided to use the head -5 command which will print the first 5 lines of each textfile 
-containing the pattern input. So, as we can see, the output includes only five lines from
-911report/chapter-2.txt file.
-![Alt text](<images/PA3 Images/rgrep-example2.png>)
+```
+$ grep -r "anime" */*.txt
+```
 
-Here is the output:
-![Alt text](<images/PA3 Images/rgrep-example2-output.png>)
+Here is the first output:
+
+```
+biomed/cc4.txt:          
+artery pressure was measured by planimetry as the mean of
+```
+
+Here is the second input: 
+
+```
+$ grep -r "Japanese" *.txt
+```
+
+Here is the second output: 
+
+```
+1471-2156-2-12.txt:            correlates with increasing age in the human Japanese
+1471-2156-2-7.txt:        reported in Pima Indian and Japanese populations [ 9,
+1471-2156-2-7.txt:        were negative in UK, Finnish, and Welsh [ 21] and Japanese
+1471-2164-3-30.txt:        but not in the Japanese population [ 39 ] . Genetic
+1471-2164-4-24.txt:          We identified eight TMC loci in the Japanese
+1471-2350-2-2.txt:        the reported frequencies in a Japanese (56% for the F
+1471-2350-3-7.txt:        Japanese; however, both samples were small and it is
+1471-2350-3-7.txt:        overlap with the regions detected in a sample of Japanese
+1471-2369-4-1.txt:        in a Japanese study. [ 30 ] Other investigators have
+1471-2407-2-3.txt:          we used the five major groups in Hawaii (Japanese,
+1471-2407-2-8.txt:        risk for the development of GC. Recent studies on Japanese
+1471-2407-3-5.txt:        a higher death rate than do the Japanese. [ 5 ] These
+1471-2407-3-5.txt:        ethnic groups (Caucasian, Japanese, Hawaiian, Filipino, and
+1471-2407-3-5.txt:        Japanese patients had a nearly one-third higher survival
+1471-2407-3-5.txt:        described better survival rates among Japanese and
+1471-2407-3-5.txt:          were Caucasian, 20.4% Japanese, 18.8% Native Hawaiian,
+1471-2407-3-5.txt:          from the five major ethnic groups (Caucasian, Japanese,
+1471-2407-3-5.txt:        for Japanese, 79.4% for Caucasian, 78.8% for Chinese, 76.4%
+1471-2407-3-5.txt:        indicated that Japanese and Caucasian patients had
+1471-2407-3-5.txt:        intervals indicated that the Japanese always had a
+1471-2458-2-6.txt:          healthy Japanese soldiers who took prophylactic
+1472-6874-2-13.txt:          were Caucasian; 6 were Chinese; 5 were Japanese; 5 were
+1475-925X-2-11.txt:        frequency range is used by Japanese mobile phones. Further
+1476-511X-2-3.txt:        . Moreover, among 3000 adult Japanese men frequency of
+bcr285.txt:          Caucasian, Chinese, Japanese, and Native Hawaiian
+bcr285.txt:          1). Counting all soy foods, Chinese and Japanese women
+bcr285.txt:          the Chinese and Japanese women after we stratified by
+bcr285.txt:          of percent densities among Chinese and Japanese women who
+bcr285.txt:          however, may be a marker for Chinese and Japanese
+bcr285.txt:        Hawaiian women, 82 for Japanese women, and 55 for Chinese
+bcr285.txt:        Japanese, and Native Hawaiian ancestry living in
+bcr285.txt:          among Caucasian, Native Hawaiian, and Japanese women [
+bcr285.txt:          Japanese women. Because the FFQ included only two soy
+bcr285.txt:          cancer risk is low for Japanese and Chinese women and
+bcr285.txt:          Japanese women represented the largest groups in this
+bcr285.txt:          among Chinese and Japanese women. Mean soy food intake
+bcr285.txt:          as in Chinese women. Chinese and Japanese women reported
+bcr285.txt:          and Native Hawaiian women than among Chinese and Japanese
+bcr285.txt:          significant trends in the Chinese and Japanese women
+bcr285.txt:        percent densities among Chinese and Japanese women who are
+bcr285.txt:        Japanese ethnicity; an indicator for childhood nutritional
+gb-2003-4-3-r17.txt:          Hospital, Boston, MA) and a 41-year-old Japanese male
+```
 
 ## #4 grep -c examples
 The importance of grep -c is that it counts how many times the argument was used within the 
 set of textfiles input by the user, this is critical in determining the frequencies of words 
 throughout all the textfiles contained in the subdirectories of technical/.
 
-In this code block, I'm searching for the number of times the term gun is used throughout
-all the textfiles located in the subdirectories of technical/.
-![Alt text](<images/PA3 Images/cgrep-example1.png>)
+In the code blocks below, I'm searching inside the 911report directory. In the first example I'm looking to see how many times anime is mentioned and in the second example I'm looking to see how many times gun is mentioned. 
+I believe this is very important because it gives you the ability to create a distribution of how frequent a particular word is used across the range of files.
 
-Here is the output:
-![Alt text](<images/PA3 Images/cgrep-example1-output.png>)
+Here is the first input:
 
-In this last code block I tried something entirely new, I basically did the same procedure as
-I did in the previous code block. I counted the number of times the term murder came up, but I also
-added the command grep -rl using the same argument. The r portion works analogously to grep -r, and
-the l part lists all the names of the files that contain the argument.
-![Alt text](<images/PA3 Images/cgrep-example2.png>)
+```
+$ grep -c anime *.txt
+```
 
-Here are the two outputs:
-![Alt text](<images/PA3 Images/cgrep-example2-output1.png>)
-![Alt text](<images/PA3 Images/cgrep-example2-output2.png>)
+Here is the first output:
+
+```
+chapter-1.txt:0
+chapter-10.txt:0
+chapter-11.txt:0
+chapter-12.txt:0
+chapter-13.1.txt:0
+chapter-13.2.txt:0
+chapter-13.3.txt:0
+chapter-13.4.txt:0
+chapter-13.5.txt:0
+chapter-2.txt:0
+chapter-3.txt:0
+chapter-5.txt:0
+chapter-6.txt:0
+chapter-7.txt:0
+chapter-8.txt:0
+chapter-9.txt:0
+preface.txt:0
+```
+
+Second input:
+
+```
+grep -c gun *.txt 
+```
+
+Second output:
+
+```
+chapter-1.txt:6
+chapter-10.txt:3
+chapter-11.txt:0
+chapter-12.txt:3
+chapter-13.1.txt:0
+chapter-13.2.txt:7
+chapter-13.3.txt:2
+chapter-13.4.txt:10
+chapter-13.5.txt:3
+chapter-2.txt:3
+chapter-3.txt:4
+chapter-5.txt:0
+chapter-6.txt:4
+chapter-7.txt:2
+chapter-8.txt:3
+chapter-9.txt:3
+preface.txt:0
+```

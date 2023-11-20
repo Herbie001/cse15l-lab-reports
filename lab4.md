@@ -1,6 +1,7 @@
 #This is the fourth lab report for CSE 15L FA2023
 
 ## Repeating the lab tasks:
+
 ## Logging into ieng6 server: 
 
 Summary of task: Assuming vscode is already open: press control+shift+`(back tick) to open a new terminal. Now log onto ieng6 server. with ssh cse15lfa23zz@ieng6.ucsd.edu. Remember that the zz is replaced by your own specific bigram. There is no other steps to take since we've already established the SSH key generation from week 3.

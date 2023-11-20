@@ -48,7 +48,6 @@ Junit test which comes out to be true.
     List<String> mergeSort = ListExamples.merge(input1, input2);
     
     assertEquals(expected, mergeSort);
-
   }
 ```
 

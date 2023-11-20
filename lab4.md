@@ -8,32 +8,39 @@ Summary of task: Assuming vscode is already open: press control+shift+`(back tic
 Keystrokes: control+shift+`(backtick), ssh<space>cse15lfa23zz@ieng6.ucsd.edu<enter>
 
 Pictures:
+
 ![Alt text](<images/PA4 Images/logging into ieng6.png>)
 
 ## Cloning the fork of the repository from GitHub account.
 
 Summary of task: Assuming that the repository is already forked onto your GitHub account. Type the following into your terminal 
+
 ```
 $ git clone git@github.com:(YOURUSERNAME)/lab7.git
 ```
+
 This will successfully clone the forked repository to your machine.
 
 Keystrokes: git <space> clone <space> git@github.com:(YOURUSERNAME)/lab7.git <enter>
 
 Pictures:
+
 ![Alt text](<images/PA4 Images/git clone repo.png>)
 
 ## Run the tests, demonstrating that they fail.
 
 Summary of task: Open the directory you just cloned onto your machine, open terminal, if it's not already open and run the script test.sh using the following code below.
+
 ```
 $ bash test.sh 
 ```
+
 This command will run a script which will test your program to determine if there's any errors. After running the script, you will notice that you have run 4 tests, 3 passed and 1 failed.
 
 Keystrokes: bash <space> test.sh <enter>
 
 Pictures: 
+
 ![Alt text](<images/PA4 Images/running bash script.png>)
 
 ## Edit the code in the file ListExamples.java and fix bug. 
@@ -55,6 +62,7 @@ r[2] replaces the 1 at the end of the word with 2.
 :wq <enter> will save and exit.
 
 Pictures:
+
 ![Alt text](<images/PA4 Images/edit java file using vim.png>)
 
 ## Re-run the tests.
@@ -65,19 +73,24 @@ $ bash test.sh
 ```
 
 Pictures:
+
 ![Alt text](<images/PA4 Images/running bash script again.png>)
 
 ## Commit and push the changes to your GitHub account.
 
 Summary of task: click on your terminal, then type the following code which will commit and push the changes you made to the java files.
+
 ```
 git commit
 ```
 ```
 git push
 ```
+
 Keystrokes: git <space> commit, git <space> push
 
 Pictures: 
+
 ![Alt text](<images/PA4 Images/git commit.png>)
+
 ![Alt text](<images/PA4 Images/git push.png>)

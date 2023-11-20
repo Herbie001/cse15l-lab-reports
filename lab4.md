@@ -70,7 +70,9 @@ r[2] replaces the 1 at the end of the word with 2.
 :wq <enter> will save and exit.
 <br>
 Pictures:
+
 <br>
+
 
 ![Alt text](<images/PA4 Images/edit java file using vim.png>)
 
@@ -79,23 +81,33 @@ Pictures:
 ## Re-run the tests.
 
 <br>
+
 Summary of task: You want to click in your console, the re-run the same bash command using the same command. Which should give you 4 successful tests.
+
 <br>
+
 
 ```
 $ bash test.sh
 ```
+
+
 <br>
 
+
 Pictures:
+
 
 ![Alt text](<images/PA4 Images/running bash script again.png>)
 
 <br>
 
+
 ## Commit and push the changes to your GitHub account.
 
+
 <br>
+
 
 Summary of task: click on your terminal, then type the following code which will commit and push the changes you made to the java files.
 
@@ -104,17 +116,21 @@ Summary of task: click on your terminal, then type the following code which will
 ```
 git commit
 ```
+
 <br>
 
 ```
 git push
 ```
+
 <br>
+
 Keystrokes: git <space> commit, git <space> push
 
 <br>
 
 Pictures: 
+
 <br>
 
 ![Alt text](<images/PA4 Images/git commit.png>)

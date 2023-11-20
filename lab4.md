@@ -1,7 +1,7 @@
 #This is the fourth lab report for CSE 15L FA2023
 
 ## Repeating the lab tasks:
-1. Logging into ieng6 server: 
+## Logging into ieng6 server: 
 
 Summary of task: Assuming vscode is already open: press control+shift+`(back tick) to open a new terminal. Now log onto ieng6 server. with ssh cse15lfa23zz@ieng6.ucsd.edu. Remember that the zz is replaced by your own specific bigram. There is no other steps to take since we've already established the SSH key generation from week 3.
 
@@ -10,7 +10,7 @@ Keystrokes: control+shift+`(backtick), ssh<space>cse15lfa23zz@ieng6.ucsd.edu<ent
 Pictures:
 ![Alt text](<images/PA4 Images/logging into ieng6.png>)
 
-2. Cloning the fork of the repository from GitHub account.
+## Cloning the fork of the repository from GitHub account.
 
 Summary of task: Assuming that the repository is already forked onto your GitHub account. Type the following into your terminal 
 ```
@@ -23,7 +23,7 @@ Keystrokes: git <space> clone <space> git@github.com:(YOURUSERNAME)/lab7.git <en
 Pictures:
 ![Alt text](<images/PA4 Images/git clone repo.png>)
 
-3. Run the tests, demonstrating that they fail.
+## Run the tests, demonstrating that they fail.
 
 Summary of task: Open the directory you just cloned onto your machine, open terminal, if it's not already open and run the script test.sh using the following code below.
 ```
@@ -36,7 +36,7 @@ Keystrokes: bash <space> test.sh <enter>
 Pictures: 
 ![Alt text](<images/PA4 Images/running bash script.png>)
 
-4. Edit the code in the file ListExamples.java and fix bug. 
+## Edit the code in the file ListExamples.java and fix bug. 
 
 Summary of task: Open the java file ListExamples.java using vim. To do this, click on your console then type in the following command.
 ```
@@ -57,7 +57,7 @@ r[2] replaces the 1 at the end of the word with 2.
 Pictures:
 ![Alt text](<images/PA4 Images/edit java file using vim.png>)
 
-5. Re-run the tests.
+## Re-run the tests.
 
 Summary of task: You want to click in your console, the re-run the same bash command using the same command. Which should give you 4 successful tests.
 ```
@@ -67,7 +67,7 @@ $ bash test.sh
 Pictures:
 ![Alt text](<images/PA4 Images/running bash script again.png>)
 
-6. Commit and push the changes to your GitHub account.
+## Commit and push the changes to your GitHub account.
 
 Summary of task: click on your terminal, then type the following code which will commit and push the changes you made to the java files.
 ```

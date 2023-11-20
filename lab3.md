@@ -111,7 +111,7 @@ fully test the capability to see if the method even merges properly.
 
 For this portion of the lab, I'll choose to look at the grep command.
 
-## #1 fgrep examples
+## #1 grep -f examples
 The importance of fgrep is that it searches files for the literal argument input by the user. 
 In addition, fgrep is very fast at finding the results.
 
@@ -131,7 +131,7 @@ input by the user.
 Here is the output:
 ![Alt text](<images/PA3 Images/fgrep-example2-output.png>)
 
-## #2 egrep examples
+## #2 grep -e examples
 The importance of egrep and the main difference between other grep's in the command line
 arsinal is that it searches for patterns rather than literals.
 
@@ -151,7 +151,7 @@ sort of surprised.
 Here is the output:
 ![Alt text](<images/PA3 Images/egrep-example2-output.png>)
 
-## #3 rgrep examples (grep -r) to be more precise.
+## #3 grep -r examples
 The importance of grep -r is that it recursively searches for the pattern desired by the user.
 
 The following code block recursively searches for the pattern desired by the user. In this case,

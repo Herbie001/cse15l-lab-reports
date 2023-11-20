@@ -1,6 +1,5 @@
 #This is the fourth lab report for CSE 15L FA2023
 
-## Repeating the lab tasks:
 
 ## Logging into ieng6 server: 
 
@@ -53,27 +52,25 @@ vim ListExamples.java
 ```
 
 Using vim allows us to quickly edit our java program, save and re-test it.
-<br>
+
 Keystrokes: <shift> g, /index1, <shift> n, e, r2, :wq <enter>
-<br>
+
 Explaination of keystrokes: 
-<br>
-<shift> g allows us to jump to the bottom of the page.
-<br>
-/index1 searches for the index to fix.
-<br>
-<shift> n repeats the search, but in the opposite direction - starting from the bottom and working our way to the top results.
-<br>
-e jumps to the end of a word.
-<br>
-r[2] replaces the 1 at the end of the word with 2.
-<br>
-:wq <enter> will save and exit.
-<br>
+
+1. <shift> g allows us to jump to the bottom of the page.
+
+2. /index1 searches for the index to fix.
+
+3. <shift> n repeats the search, but in the opposite direction - starting from the bottom and working our way to the top results.
+
+4. e jumps to the end of a word.
+
+5. r[2] replaces the 1 at the end of the word with 2.
+
+6. :wq <enter> will save and exit.
+
+
 Pictures:
-
-<br>
-
 
 ![Alt text](<images/PA4 Images/edit java file using vim.png>)
 
@@ -105,23 +102,16 @@ Pictures:
 ## Commit and push the changes to your GitHub account.
 
 
-<br>
-
-
 Summary of task: click on your terminal, then type the following code which will commit and push the changes you made to the java files.
-
 
 
 ```
 git commit
 ```
 
-
-
 ```
 git push
 ```
-
 
 Keystrokes: git <space> commit, git <space> push
 

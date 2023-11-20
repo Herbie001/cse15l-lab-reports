@@ -85,8 +85,10 @@ Pictures:
 
 ![Alt text](<images/PA4 Images/running bash script again.png>)
 
-## Commit and push the changes to your GitHub account.
+<br>
 
+## Commit and push the changes to your GitHub account.
+<br>
 Summary of task: click on your terminal, then type the following code which will commit and push the changes you made to the java files.
 
 ```

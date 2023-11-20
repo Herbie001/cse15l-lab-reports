@@ -46,6 +46,7 @@ Pictures:
 ## Edit the code in the file ListExamples.java and fix bug. 
 
 Summary of task: Open the java file ListExamples.java using vim. To do this, click on your console then type in the following command.
+
 ```
 vim ListExamples.java
 ```

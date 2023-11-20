@@ -50,16 +50,23 @@ Summary of task: Open the java file ListExamples.java using vim. To do this, cli
 ```
 vim ListExamples.java
 ```
+
 Using vim allows us to quickly edit our java program, save and re-test it.
 
 Keystrokes: <shift> g, /index1, <shift> n, e, r2, :wq <enter>
 
 Explaination of keystrokes: 
+
 <shift> g allows us to jump to the bottom of the page.
+
 /index1 searches for the index to fix.
+
 <shift> n repeats the search, but in the opposite direction - starting from the bottom and working our way to the top results.
+
 e jumps to the end of a word.
+
 r[2] replaces the 1 at the end of the word with 2.
+
 :wq <enter> will save and exit.
 
 Pictures:

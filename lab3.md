@@ -8,7 +8,7 @@
 
 For this portion of the lab report, I'll be discussing the bug in ListExamples.java.
 
-1. A failure-inducing input for the buggy program: 
+A failure-inducing input for the buggy program: 
 A failure inducing input we can try is having an arrayList with values A through C and then having the other arrayList consist of X through Z then attempting to merge them together.
 
 ```
@@ -25,7 +25,7 @@ A failure inducing input we can try is having an arrayList with values A through
   }
 ```
 
-2. An input that doesn't induce a failure: 
+An input that doesn't induce a failure: 
 If you have an arrayList consisting of one value from the alphabeta and an arrayList consisting of no values and merge them, then you just get the array consisting of the one value, which works.
 
 ```
@@ -42,7 +42,7 @@ If you have an arrayList consisting of one value from the alphabeta and an array
   }
 ```
 
-3. The symptom:
+The symptom:
 The symptom was a infinite loop in the last while loop.
 
 Here are two screenshots demonstrating part 1 & 2 testing:
@@ -54,7 +54,7 @@ Picture 2 shows that we've passed the test by merging two arraylists, one being 
 ![Alt text](<Screenshot 2023-11-19 at 7.14.17 PM.png>)
 
 
-4. The bug, before, after and the code change required to fix it.
+The bug, before, after and the code change required to fix it.
 The required change to address the infinite loop lies within the indexing of
 the third while loop. Our conditional statement is broken when index2 is strictly
 less than list2.size(), but at the end of loop, we're incrementing index1. So, we 

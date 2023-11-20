@@ -112,30 +112,26 @@ Pictures:
 
 Summary of task: click on your terminal, then type the following code which will commit and push the changes you made to the java files.
 
-<br>
+
 
 ```
 git commit
 ```
 
-<br>
+
 
 ```
 git push
 ```
 
-<br>
 
 Keystrokes: git <space> commit, git <space> push
 
-<br>
 
 Pictures: 
 
-<br>
 
 ![Alt text](<images/PA4 Images/git commit.png>)
 
-<br>
 
 ![Alt text](<images/PA4 Images/git push.png>)

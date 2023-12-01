@@ -5,7 +5,7 @@
 
 Summary of task: Assuming vscode is already open: press `control+shift+(back tick)` to open a new terminal. Now log onto ieng6 server. with `ssh cse15lfa23zz@ieng6.ucsd.edu`. There is no other steps to take since we've already established the SSH key generation from week 3.
 
-Keystrokes: `control+shift+(backtick)`, `ssh <space> cse15lfa23pp@ieng6.ucsd.edu`, `<enter>`
+Keystrokes: `control+shift+(backtick)`, `ssh <space> cse15lfa23pp@ieng6.ucsd.edu <enter>`
 
 Pictures:
 
@@ -16,7 +16,7 @@ Pictures:
 Summary of task: Assuming that the repository is already forked onto your GitHub account. Type the following into your terminal 
 
 ```
-$ git clone git@github.com:Herbie001/lab7.git
+$ git <space> clone <space> git@github.com:Herbie001/lab7.git <enter>
 ```
 
 This will successfully clone the forked repository to your machine.
@@ -34,12 +34,12 @@ is the repo that was cloned. Type `cd lab7/` to change the directory to the dire
 already open and run the script called test.sh using the following code below.
 
 ```
-$ bash test.sh 
+$ bash <space> test.sh <enter>
 ```
 
 This command will run a script which will test your program to determine if there's any errors. After running the script, you will notice that you have run 2 tests, 1 passed and 1 failed.
 
-Keystrokes: `pwd`, `ls`, `cd lab7/`, `bash <space> test.sh <enter>`.
+Keystrokes: `pwd <enter>`, `ls <enter>`, `cd lab7/ <enter>`, `bash <space> test.sh <enter>`.
 
 Pictures: 
 
@@ -50,7 +50,7 @@ Pictures:
 Summary of task: Open the java file ListExamples.java using vim. To do this, click on your console then type in the following command.
 
 ```
-vim ListExamples.java
+vim <space> ListExamples.java <enter>
 ```
 
 Using vim allows us to quickly edit our java program, save and re-test it.
@@ -59,17 +59,17 @@ Keystrokes: `<shift> g`(Capital G), `/index1 <enter>`, `<shift> n`(Capital N), `
 
 Explaination of keystrokes: 
 
-1. `<shift> g` allows us to jump to the bottom of the page.
+1. `<shift> g`(Capital G) allows us to jump to the bottom of the page.
 
-2. /index1 searches for the index to fix.
+2. `/index1 <enter>` searches for the index to fix in the forward directions, which is why we use number 4 to traverse in reverse.
 
-3. <shift> n repeats the search, but in the opposite direction - starting from the bottom and working our way to the top results.
+3. `<shift> n`(Capital N) repeats the search, but in the opposite direction - starting from the bottom and working our way to the top results.
 
-4. e jumps to the end of a word.
+4. `e` jumps to the end of a word.
 
-5. r[2] replaces the 1 at the end of the word with 2.
+5. `r[2] <escape>` replaces the 1 at the end of the word with 2.
 
-6. :wq <enter> will save and exit.
+6. `:wq <enter>` will save and exit.
 
 
 Pictures:
@@ -86,7 +86,7 @@ Summary of task: You want to click in your console, the re-run the same bash com
 
 
 ```
-$ bash test.sh
+$ bash <space> test.sh <enter>
 ```
 
 
@@ -107,15 +107,15 @@ Pictures:
 Summary of task: Click on your terminal, then type the following code which will add the changes, commit and push the changes you made to the java files to the main branch of the repository that your cloned.
 
 ```
-git add ListExamples.java
+git <space> add <space> ListExamples.java <enter>
 ```
 
 ```
-git commit -m "Fixed the bug"
+git <space> commit <space> -m <space> "Fixed the bug" <enter>
 ```
 
 ```
-git push
+git <space> push <enter>
 ```
 
 Keystrokes: `git <space> add <space> ListExamples.java <enter> `, 

@@ -3,9 +3,9 @@
 
 ## Logging into ieng6 server: 
 
-Summary of task: Assuming vscode is already open: press control+shift+`(back tick) to open a new terminal. Now log onto ieng6 server. with ssh cse15lfa23zz@ieng6.ucsd.edu. Remember that the zz is replaced by your own specific bigram. There is no other steps to take since we've already established the SSH key generation from week 3.
+Summary of task: Assuming vscode is already open: press `control+shift+(back tick)` to open a new terminal. Now log onto ieng6 server. with ssh cse15lfa23zz@ieng6.ucsd.edu. Remember that the zz is replaced by your own specific bigram. There is no other steps to take since we've already established the SSH key generation from week 3.
 
-Keystrokes: control+shift+`(backtick), ssh cse15lfa23zz@ieng6.ucsd.edu<enter>
+Keystrokes: `control+shift+(backtick)`, `ssh cse15lfa23pp@ieng6.ucsd.edu`, `<enter>`
 
 Pictures:
 
@@ -16,7 +16,7 @@ Pictures:
 Summary of task: Assuming that the repository is already forked onto your GitHub account. Type the following into your terminal 
 
 ```
-$ git clone git@github.com:(YOURUSERNAME)/lab7.git
+$ git clone git@github.com:Herbie001/lab7.git
 ```
 
 This will successfully clone the forked repository to your machine.

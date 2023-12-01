@@ -3,9 +3,9 @@
 
 ## Logging into ieng6 server: 
 
-Summary of task: Assuming vscode is already open: press `control+shift+(back tick)` to open a new terminal. Now log onto ieng6 server. with ssh cse15lfa23zz@ieng6.ucsd.edu. Remember that the zz is replaced by your own specific bigram. There is no other steps to take since we've already established the SSH key generation from week 3.
+Summary of task: Assuming vscode is already open: press `control+shift+(back tick)` to open a new terminal. Now log onto ieng6 server. with `ssh cse15lfa23zz@ieng6.ucsd.edu`. There is no other steps to take since we've already established the SSH key generation from week 3.
 
-Keystrokes: `control+shift+(backtick)`, `ssh cse15lfa23pp@ieng6.ucsd.edu`, `<enter>`
+Keystrokes: `control+shift+(backtick)`, `ssh <space> cse15lfa23pp@ieng6.ucsd.edu`, `<enter>`
 
 Pictures:
 
@@ -21,7 +21,7 @@ $ git clone git@github.com:Herbie001/lab7.git
 
 This will successfully clone the forked repository to your machine.
 
-Keystrokes: git <space> clone <space> git@github.com:(YOURUSERNAME)/lab7.git <enter>
+Keystrokes: `git <space> clone <space> git@github.com:(Herbie001)/lab7.git <enter>`
 
 Pictures:
 
@@ -29,7 +29,9 @@ Pictures:
 
 ## Run the tests, demonstrating that they fail.
 
-Summary of task: Open the directory you just cloned onto your machine, open terminal, if it's not already open and run the script test.sh using the following code below.
+Summary of task: Type `pwd` to figure out what your current working directory is. Then type `ls` and you will notice the newest file which 
+is the repo that was cloned. Type `cd lab7/` to change the directory to the directory you just cloned, open terminal, if it's not 
+already open and run the script called test.sh using the following code below.
 
 ```
 $ bash test.sh 
@@ -37,7 +39,7 @@ $ bash test.sh
 
 This command will run a script which will test your program to determine if there's any errors. After running the script, you will notice that you have run 2 tests, 1 passed and 1 failed.
 
-Keystrokes: bash <space> test.sh <enter>
+Keystrokes: `pwd`, `ls`, `cd lab7/`, `bash <space> test.sh <enter>`.
 
 Pictures: 
 
@@ -53,11 +55,11 @@ vim ListExamples.java
 
 Using vim allows us to quickly edit our java program, save and re-test it.
 
-Keystrokes: <shift> g, /index1, <shift> n, e, r2, :wq <enter>
+Keystrokes: `<shift> g`(Capital G), `/index1 <enter>`, `<shift> n`(Capital N), `e`, `r2`, `:wq <enter>`
 
 Explaination of keystrokes: 
 
-1. <shift> g allows us to jump to the bottom of the page.
+1. `<shift> g` allows us to jump to the bottom of the page.
 
 2. /index1 searches for the index to fix.
 
@@ -79,7 +81,7 @@ Pictures:
 
 <br>
 
-Summary of task: You want to click in your console, the re-run the same bash command using the same command. Which should give you 4 successful tests.
+Summary of task: You want to click in your console, the re-run the same bash command using the same command. Which should give you 2 successful tests.
 
 
 
@@ -102,18 +104,23 @@ Pictures:
 ## Commit and push the changes to your GitHub account.
 
 
-Summary of task: click on your terminal, then type the following code which will commit and push the changes you made to the java files.
-
+Summary of task: Click on your terminal, then type the following code which will add the changes, commit and push the changes you made to the java files to the main branch of the repository that your cloned.
 
 ```
-git commit
+git add ListExamples.java
+```
+
+```
+git commit -m "Fixed the bug"
 ```
 
 ```
 git push
 ```
 
-Keystrokes: git <space> commit, git <space> push
+Keystrokes: `git <space> add <space> ListExamples.java <enter> `, 
+`git <space> commit <space> -m <space> "Fixed the bug" <enter>`, 
+`git <space> push <enter>`
 
 
 Pictures: 

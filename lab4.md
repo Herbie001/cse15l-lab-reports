@@ -16,7 +16,7 @@ Pictures:
 Summary of task: Assuming that the repository is already forked onto your GitHub account. Type the following into your terminal 
 
 ```
-$ git <space> clone <space> git@github.com:Herbie001/lab7.git <enter>
+$ git clone git@github.com:Herbie001/lab7.git
 ```
 
 This will successfully clone the forked repository to your machine.
@@ -34,12 +34,12 @@ is the repo that was cloned. Type `cd lab7/` to change the directory to the dire
 already open and run the script called test.sh using the following code below.
 
 ```
-$ bash <space> test.sh <enter>
+$ bash test.sh
 ```
 
 This command will run a script which will test your program to determine if there's any errors. After running the script, you will notice that you have run 2 tests, 1 passed and 1 failed.
 
-Keystrokes: `pwd <enter>`, `ls <enter>`, `cd lab7/ <enter>`, `bash <space> test.sh <enter>`.
+Keystrokes: `pwd <enter>`, `ls <enter>`, `cd lab7/ <enter>`, `bash <space> test.sh <enter>`
 
 Pictures: 
 
@@ -50,7 +50,7 @@ Pictures:
 Summary of task: Open the java file ListExamples.java using vim. To do this, click on your console then type in the following command.
 
 ```
-vim <space> ListExamples.java <enter>
+vim ListExamples.java 
 ```
 
 Using vim allows us to quickly edit our java program, save and re-test it.
@@ -86,8 +86,10 @@ Summary of task: You want to click in your console, the re-run the same bash com
 
 
 ```
-$ bash <space> test.sh <enter>
+$ bash test.sh
 ```
+
+keystrokes: `bash <space> test.sh <enter>`
 
 
 <br>
@@ -107,15 +109,15 @@ Pictures:
 Summary of task: Click on your terminal, then type the following code which will add the changes, commit and push the changes you made to the java files to the main branch of the repository that your cloned.
 
 ```
-git <space> add <space> ListExamples.java <enter>
+git add ListExamples.java
 ```
 
 ```
-git <space> commit <space> -m <space> "Fixed the bug" <enter>
+git commit -m "Fixed the bug"
 ```
 
 ```
-git <space> push <enter>
+git push
 ```
 
 Keystrokes: `git <space> add <space> ListExamples.java <enter> `, 

@@ -125,8 +125,8 @@ Keystrokes: `git <space> add <space> ListExamples.java <enter> `,
 
 Pictures: 
 
+![Alt text](<images/PA4 Images/Screenshot 2023-12-01 at 12.18.50 AM.png>)
 
-![Alt text](<images/PA4 Images/git commit.png>)
+![Alt text](<images/PA4 Images/Screenshot 2023-12-01 at 12.06.54 AM.png>)
 
-
-![Alt text](<images/PA4 Images/git push.png>)
+![Alt text](<images/PA4 Images/Screenshot 2023-12-01 at 12.06.31 AM.png>)

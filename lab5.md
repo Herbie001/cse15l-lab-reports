@@ -3,7 +3,8 @@
 ## Part 1 - Debugging Scenario
 
 Note: Use the bug from lab week 8 and use jdb to locate the bug, take screenshots of infinite run time, then provide screenshots of debugging using jdb
-1. Student post: 
+
+# 1. Student post: 
 Help, I've come across a bug and I don't know what to do! My code just keeps compiling and I can't figure out why my code wont execute! 
 I'm attempting to debug the problem on my machine, but I don't know much about JDB since I missed last weeks lecture! HELP! I linked a screenshot
 so you can see my code and hopefully can guide me in the correct direction.
@@ -12,12 +13,12 @@ Screenshot:
 
 ![Alt text](<images/PA5 Images/Screenshot 2023-12-03 at 9.59.58 AM.png>)
 
-2. Hey! I've taken a good look at your issue and believe that I can guide you towards the solution, but first he's a question. What do you think
+# 2. Hey! I've taken a good look at your issue and believe that I can guide you towards the solution, but first he's a question. What do you think
 will happen if you add some print statements around in your code and see if you notice any abnormal behavior in the output after running tests
 using jdb. This could help deduce the location of the bug that is hiding in your code. 
 Let me know if you get stuck again or drop by office hours and I'm sure one of the wonderful TA's can be of assistance. Have a good one!
 
-3. Here is a picture after inserting print statements around my code as recommended by the tutor.
+# 3. Here is a picture after inserting print statements around my code as recommended by the tutor.
 
 ![Alt text](<images/PA5 Images/Screenshot 2023-12-03 at 9.58.18 AM.png>)
 
@@ -32,7 +33,7 @@ was an incremental bug where I'm not incrementing the correct index to eventuall
 break out of the conditional statement. 
 
 
-4. Here is some details about the setup
+# 4. Here is some details about the setup
 
 * File & directory structure needed:
 
@@ -121,8 +122,18 @@ will see the output in the screenshot below.
 In order to fix the bug, we must edit the index so it should increment correctly.
 On line 49, `index1 += 1;` should be changed to `index2 += 1;` which will resolve
 the bug. We can do this either in the java file itself or using `vim ListExamples.java`.
-If we choose the vim route, then we can  
-then proceed with making the edit to the indexing bug `:wq!` to save and quit the file
+If we choose the vim route, then we can traverse to the bottom of the page using the following key strokes:
+1. `<shift> g`(Capital G) allows us to jump to the bottom of the page.
+
+2. `/index1 <enter>` searches for the index to fix in the forward directions, which is why we use number 4 to traverse in reverse.
+
+3. `<shift> n`(Capital N) repeats the search, but in the opposite direction - starting from the bottom and working our way to the top results.
+
+4. `e` jumps to the end of a word.
+
+5. `r[2] <escape>` replaces the 1 at the end of the word with 2.
+
+6. `:wq <enter>` will save and exit.
 
 Here is a screenshot of running the same tests again with zero failures after
 addressing the bug and fixing it.

@@ -1,9 +1,14 @@
+import static org.junit.Assert.assertArrayEquals;
+
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-interface StringChecker { boolean checkString(String s); }
+import org.junit.Test;
 
-class BuggyExample {
+
+
+public class BuggyExample {
 
   // Returns a new list that has all the elements of the input list for which
   // the StringChecker returns true, and not the elements that return false, in
@@ -39,12 +44,13 @@ class BuggyExample {
       index1 += 1;
     }
     while(index2 < list2.size()) {
+      System.out.println("Step @ line 42");
       result.add(list2.get(index2));
-      // change index1 below to index2 to fix test
-      index2 += 1;
+      System.out.println("Step @ line 44");
+      index1 += 1;
     }
     return result;
   }
-
+  interface StringChecker { boolean checkString(String s); }
 
 }

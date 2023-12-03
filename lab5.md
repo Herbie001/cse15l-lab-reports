@@ -37,7 +37,7 @@ break out of the conditional statement.
 
 # 4. Information and details about the setup
 
-* File & directory structure needed:
+* **File & directory structure needed:**
 
 My working directory during this was */Users/erichebert/Documents/GitHub/lab7* 
 The files used were ListExamples.java, ListExamplesTest.java, and I also used a bash
@@ -52,7 +52,7 @@ Also here is a screenshot showing my working directory and the files contained w
 ![Alt text](<images/PA5 Images/Screenshot 2023-12-03 at 10.12.18 AM.png>)
 
 
-* Contents of the file before fixing bug:
+* **Contents of the file before fixing bug:**
 
 ```
 
@@ -113,8 +113,45 @@ class ListExamples {
 
 ```
 
-* The full command line(or lines) used to trigger the bug:
+* **The full command line(or lines) used to trigger the bug:**
 
+Here is the test file used for testing with jdb.
+
+```
+
+import static org.junit.Assert.*;
+import org.junit.*;
+import java.util.*;
+import java.util.ArrayList;
+
+public class ListExamplesTests {
+	// indent
+	// here is some text
+	// here is more text to indent
+	@Test
+		public void testEmptyMerge() {
+			List<String> emptyList = new ArrayList<String>();
+			List<String> l1 = new ArrayList<String>();
+			List<String> l2 = new ArrayList<String>();
+
+		}
+	@Test(timeout = 500)
+	public void testMerge1() {
+    		List<String> l1 = new ArrayList<String>(Arrays.asList("x", "y"));
+		List<String> l2 = new ArrayList<String>(Arrays.asList("a", "b"));
+		assertArrayEquals(new String[]{ "a", "b", "x", "y"}, ListExamples.merge(l1, l2).toArray());
+	}
+	
+	@Test(timeout = 500)
+        public void testMerge2() {
+		List<String> l1 = new ArrayList<String>(Arrays.asList("a", "b", "c"));
+		List<String> l2 = new ArrayList<String>(Arrays.asList("c", "d", "e"));
+		assertArrayEquals(new String[]{ "a", "b", "c", "c", "d", "e" }, ListExamples.merge(l1, l2).toArray());
+        }
+
+}
+
+```
 I used a bash script I mentioned above simply because they save time and are incredibly 
 useful, for procedures such as debugging. Here is a screenshot of me running my bash script to induce a bug. 
 
@@ -123,7 +160,7 @@ useful, for procedures such as debugging. Here is a screenshot of me running my 
 After typing `run` in the screenshot below, jdb will run and we
 will see the output in the screenshot below.
 
-* Description of what edit to fix the bug:
+* **Description of what edit to fix the bug:**
 In order to fix the bug, we must edit the index so it should increment correctly.
 On line 49, `index1 += 1;` should be changed to `index2 += 1;` which will resolve
 the bug. We can do this either in the java file itself or using `vim ListExamples.java`.

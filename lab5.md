@@ -53,7 +53,9 @@ Also here is a screenshot showing my working directory and the files contained w
 
 
 * Contents of the file before fixing bug:
+
 ```
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -108,6 +110,7 @@ class ListExamples {
 
 
 }
+
 ```
 
 * The full command line(or lines) used to trigger the bug:

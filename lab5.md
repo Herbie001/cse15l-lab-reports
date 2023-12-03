@@ -161,6 +161,7 @@ After typing `run` in the screenshot below, jdb will run and we
 will see the output in the screenshot below.
 
 * **Description of what edit to fix the bug:**
+
 In order to fix the bug, we must edit the index so it should increment correctly.
 On line 49, `index1 += 1;` should be changed to `index2 += 1;` which will resolve
 the bug. We can do this either in the java file itself or using `vim ListExamples.java`.

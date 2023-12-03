@@ -13,12 +13,14 @@ Screenshot:
 
 ![Alt text](<images/PA5 Images/Screenshot 2023-12-03 at 9.59.58 AM.png>)
 
-# 2. Hey! I've taken a good look at your issue and believe that I can guide you towards the solution, but first he's a question. What do you think
+# 2. TA response to student post
+Hey! I've taken a good look at your issue and believe that I can guide you towards the solution, but first he's a question. What do you think
 will happen if you add some print statements around in your code and see if you notice any abnormal behavior in the output after running tests
 using jdb. This could help deduce the location of the bug that is hiding in your code. 
 Let me know if you get stuck again or drop by office hours and I'm sure one of the wonderful TA's can be of assistance. Have a good one!
 
-# 3. Here is a picture after inserting print statements around my code as recommended by the tutor.
+# 3. Screenshots/Information following TA's advice
+Here is a picture after inserting print statements around my code as recommended by the tutor.
 
 ![Alt text](<images/PA5 Images/Screenshot 2023-12-03 at 9.58.18 AM.png>)
 
@@ -33,7 +35,7 @@ was an incremental bug where I'm not incrementing the correct index to eventuall
 break out of the conditional statement. 
 
 
-# 4. Here is some details about the setup
+# 4. Information and details about the setup
 
 * File & directory structure needed:
 
